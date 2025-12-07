@@ -1,6 +1,10 @@
 # Robotics-Software-Engineer-Go-chase-it
-This project was run on the Ubuntu 18.04 Operating system and using ROS Melodic.
 
+In this project, a simulation of a differential drive mobile robot is implemented in Gazebo and visualized in RVIZ, where the Mobile robot is chasing a white ball.
+
+This project was run on Ubuntu 18.04 and ROS Melodic.
+
+### Project files:
 
 The project contains two main packages:
 1. The my_robot package content:
@@ -16,9 +20,11 @@ b. The service server node at `loma_ws\src\ball_chaser\src\drive_bot.cpp`
 c. The service client node at `loma_ws\src\ball_chaser\src\process_image.cpp`
 d. The service configuration file at `loma_ws\src\ball_chaser\srv\DriveToTarget.srv`
 
-To run this project run the following commands in terminal,
-1. Got o the workspace directory: $ cd loma_ws
-2. build the workspace: $ catkin_make
+### Steps to run the project:
+
+To run this project, run the following commands in the terminal,
+1. Got to the workspace directory: $ cd loma_ws
+2. Build the workspace: $ catkin_make
 3. Source the setup.bash file: $ source devel/setup.bash
 4. Launch the robot inside your world: $ roslaunch my_robot world.launch
 ![2025-12-05 12-26-43 - frame at 0m19s](https://github.com/user-attachments/assets/b1e7f484-3399-427c-a03e-6cc96e05f46b)
