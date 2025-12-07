@@ -1,4 +1,4 @@
-# Robotics-Software-Engineer-Go-chase-it
+# Robotics-Software-Engineer || Go-chase-it
 
 In this project, a simulation of a differential drive mobile robot is implemented in Gazebo and visualized in RVIZ, where the Mobile robot is chasing a white ball.
 
