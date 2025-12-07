@@ -24,20 +24,20 @@ The project contains two main packages:
 ### Steps to run the project:
 
 To run this project, run the following commands in the terminal,
-1. Got to the workspace directory: $ cd loma_ws
-2. Build the workspace: $ catkin_make
-3. Source the setup.bash file: $ source devel/setup.bash
-4. Launch the robot inside your world: $ roslaunch my_robot world.launch
+1. Got to the workspace directory: `$ cd loma_ws`
+2. Build the workspace: `$ catkin_make`
+3. Source the setup.bash file: `$ source devel/setup.bash`
+4. Launch the robot inside your world: `$ roslaunch my_robot world.launch`
 ![2025-12-05 12-26-43 - frame at 0m19s](https://github.com/user-attachments/assets/b1e7f484-3399-427c-a03e-6cc96e05f46b)
 6. Connect Gazebo and RVIZ: See [this video](https://www.youtube.com/watch?v=33L9WSq6ZsE) for the steps.
   
 7. In a new terminal, Run `drive_bot` and `process_image`:
- - $ source devel/setup.bash
- - $ roslaunch ball_chaser ball_chaser.launch
+ - `$ source devel/setup.bash`
+ - `$ roslaunch ball_chaser ball_chaser.launch`
 
 8. In a new terminal, visualize the robot’s camera images:
- - $ source devel/setup.bash
- - $ rosrun rqt_image_view rqt_image_view
+ - `$ source devel/setup.bash`
+ - `$ rosrun rqt_image_view rqt_image_view`
 ![2025-12-05 12-26-43 - frame at 1m7s](https://github.com/user-attachments/assets/1ca5e474-23e5-4f5a-ab21-539721ffaf1c)
 
 
