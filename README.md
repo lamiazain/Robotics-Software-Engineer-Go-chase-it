@@ -32,12 +32,12 @@ To run this project, run the following commands in the terminal,
 6. Connect Gazebo and RVIZ: See [this video](https://www.youtube.com/watch?v=33L9WSq6ZsE) for the steps.
   
 7. In a new terminal, Run `drive_bot` and `process_image`:
- $ source devel/setup.bash
- $ roslaunch ball_chaser ball_chaser.launch
+ - $ source devel/setup.bash
+ - $ roslaunch ball_chaser ball_chaser.launch
 
 8. In a new terminal, visualize the robot’s camera images:
- $ source devel/setup.bash
- $ rosrun rqt_image_view rqt_image_view
+ - $ source devel/setup.bash
+ - $ rosrun rqt_image_view rqt_image_view
 ![2025-12-05 12-26-43 - frame at 1m7s](https://github.com/user-attachments/assets/1ca5e474-23e5-4f5a-ab21-539721ffaf1c)
 
 
