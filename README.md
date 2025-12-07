@@ -4,26 +4,22 @@ In this project, a simulation of a differential drive mobile robot is implemente
 
 This project was run on Ubuntu 18.04 and ROS Melodic.
 
-### Project files:
+## Project files:
 
 The project contains two main packages:
-1. The my_robot package content:
+### The my_robot package content:
 
-a. The Environment the mobile robot will move in at `loma_ws\src\my_robot\worlds\myworld.world`
+1. The Environment the mobile robot will move in at `loma_ws\src\my_robot\worlds\myworld.world`
+2. The Mobile robot design at `loma_ws\src\my_robot\urdf\my_robot.xacro`
+3. The white ball design at `loma_ws\src\my_robot\myball2\model.sdf`
+4. The Lidar meshes file at `loma_ws\src\my_robot\meshes\hokuyo.dae`
+5. The world launch file that launches The Gazebo environment, including the mobile robot and starting RVIZ at `loma_ws\src\my_robot\launch\world.launch` 
 
-b. The Mobile robot design at `loma_ws\src\my_robot\urdf\my_robot.xacro`
-
-c. The white ball design at `loma_ws\src\my_robot\myball2\model.sdf`
-
-d. The Lidar meshes file at `loma_ws\src\my_robot\meshes\hokuyo.dae`
-
-e. The world launch file that launches The Gazebo environment, including the mobile robot and starting RVIZ at `loma_ws\src\my_robot\launch\world.launch` 
-
-3. The ball_chaser package content:
-a. The package launch file at `loma_ws\src\ball_chaser\launch\ball_chaser.launch`
-b. The service server node at `loma_ws\src\ball_chaser\src\drive_bot.cpp`
-c. The service client node at `loma_ws\src\ball_chaser\src\process_image.cpp`
-d. The service configuration file at `loma_ws\src\ball_chaser\srv\DriveToTarget.srv`
+### The ball_chaser package content:
+1. The package launch file at `loma_ws\src\ball_chaser\launch\ball_chaser.launch`
+2. The service server node at `loma_ws\src\ball_chaser\src\drive_bot.cpp`
+3. The service client node at `loma_ws\src\ball_chaser\src\process_image.cpp`
+4. The service configuration file at `loma_ws\src\ball_chaser\srv\DriveToTarget.srv`
 
 ### Steps to run the project:
 
