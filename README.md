@@ -13,7 +13,7 @@ The project contains two main packages:
 2. The Mobile robot design at `loma_ws\src\my_robot\urdf\my_robot.xacro`
 3. The white ball design at `loma_ws\src\my_robot\myball2\model.sdf`
 4. The Lidar meshes file at `loma_ws\src\my_robot\meshes\hokuyo.dae`
-5. The world launch file that launches The Gazebo environment, including the mobile robot and starting RVIZ at `loma_ws\src\my_robot\launch\world.launch` 
+5. The world launch file that launches the Gazebo environment, including the mobile robot, and starts RVIZ at `loma_ws\src\my_robot\launch\world.launch` 
 
 ### The ball_chaser package content:
 1. The package launch file at `loma_ws\src\ball_chaser\launch\ball_chaser.launch`
